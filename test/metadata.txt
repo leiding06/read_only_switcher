@@ -1,0 +1,11 @@
+[general]
+name=Read Only Switcher
+description=A plugin to toggle layer read-only status
+version=1.0
+qgisMinimumVersion=3.0
+author=Your Name
+email=your.email@example.com
+
+[testing]
+hasTests=True
+testPath=test/

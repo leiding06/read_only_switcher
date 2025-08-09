@@ -1,0 +1,46 @@
+
+
+[general]
+name=Read-Only Switcher
+qgisMinimumVersion=3.16
+description=Read-Only Switcher lets you toggle the read-only flag for one or more selected layers directly from the Layers panel, saving you the step of opening Project Properties.
+version=0.1
+author=Lei Ding
+email=lleidding@gmail.com
+hasNetworkAccess=False
+
+about=Read-Only Switcher lets you quickly toggle the read-only status of multiple selected layers directly from the Layers panel; no need to open Project Properties. This makes it faster to manage and protect local or shared layers in a project, especially in collaborative environments where data safety is important. You can easily lock layers to prevent accidental edits, and unlock them when needed, all in one click.
+
+tracker=https://github.com/leiding06/read_only_switcher/issues
+repository=https://github.com/leiding06/read_only_switcher
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=read-only, project property, layer tree, python, utility
+
+homepage=https://github.com/leiding06/read_only_switcher
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+#Category of the plugin: Raster, Vector, Database or Web
+#category=plugin
+
+# If the plugin can run on QGIS Server.
+server=False
+
