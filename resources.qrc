@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/read_only_switcher" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
