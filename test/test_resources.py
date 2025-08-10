@@ -36,9 +36,8 @@ class ReadOnlySwitcherDialogTest(unittest.TestCase):
         self.assertFalse(icon.isNull())
 
 if __name__ == "__main__":
-    suite = unittest.makeSuite(ReadOnlySwitcherResourcesTest)
+    suite = unittest.makeSuite(ReadOnlySwitcherDialogTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-
 
 
